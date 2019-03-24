@@ -1,0 +1,28 @@
+
+EQ
+
+Test data | Expected result | Actual result | Pass/Fail
+ 4	  | 	   40	    |       40	    |		PASS
+ 4	  | 	   36	    |       40	    |		FAIL
+ 7	  | 	   70	    |       63	    |		FAIL
+ 7	  | 	   63	    |       63	    |		PASS
+ 12	  | 	   120	    |       84	    |		FAIL
+ 12	  | 	   108	    |       84	    |		FAIL
+ 12       | 	   84	    |       84	    |		PASS
+
+
+
+BVA
+
+Test data | Expected result | Actual result | Pass/Fail
+ 1	  | 	   10	    |       10	    |		PASS
+ 1	  | 	   9	    |       10	    |		FAIL
+ 5	  | 	   50	    |       50	    |		PASS
+ 5	  | 	   45	    |       50	    |		FAIL
+ 6	  | 	   60	    |       54	    |		FAIL
+ 6	  | 	   54	    |       54	    |		PASS
+ 10	  | 	   100	    |       90	    |		FAIL
+ 10	  | 	   90	    |       90	    |		PASS
+ 11	  | 	   110	    |       77	    |		FAIL
+ 11	  | 	   99	    |       77	    |		FAIL
+ 11       | 	   77	    |       77	    |		PASS
